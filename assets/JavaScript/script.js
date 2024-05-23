@@ -1,3 +1,5 @@
+// Menu para tablets e smartphones
+
 // Rolagem suave da barra de navegação
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
