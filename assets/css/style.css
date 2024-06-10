@@ -845,8 +845,8 @@ form .button {
     position: absolute;
     z-index: 99;
     background-color: rgba(0, 0, 0, 0.9);
-    width: 70vw;
-    height: calc(100vh - 100px);
+    border-end-start-radius: 10px;
+    width: 90vw;
     top: 100px;
     right: 0;
   }
@@ -945,9 +945,9 @@ form .button {
     display: none;
     position: absolute;
     z-index: 99;
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 80vw;
-    height: calc(100vh - 100px);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-end-start-radius: 10px;
+    width: 90vw;
     top: 100px;
     right: 0;
   }

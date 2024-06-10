@@ -1,5 +1,17 @@
 // Menu para tablets e smartphones
 
+window.matchMedia("(max-width: 800px)");
+
+document
+  .querySelector("img.menu-opener")
+  .addEventListener("click", function () {
+    if (document.querySelector("nav").style.display === "none") {
+      document.querySelector("nav").style.display = "block";
+    } else {
+      document.querySelector("nav").style.display = "none";
+    }
+  });
+
 // Rolagem suave da barra de navegação
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
